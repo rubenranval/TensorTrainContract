@@ -6,10 +6,10 @@ Contract a tensor train (TT) of low-rank cores back into the dense multidimensio
 ## Usage
 
 ```mathematica
-TensorTrainContract[{A1, A2, ..., An}]
+TensorTrainContract[tensorTrain]
 ```
 
-Contracts the tensor train formed by the rank-3 cores `{A1, A2, ..., An}` back into the dense array it represents.
+Contracts the tensor train tensorTrain formed by the rank-3 cores `{A1, A2, ..., An}` back into the dense array it represents.
 
 ## Details
 
