@@ -42,6 +42,7 @@ Message[TensorTrainContract::badbond];$Failed,
 dims[[1,1]]=!=1||dims[[-1,-1]]=!=1,
 Message[TensorTrainContract::badboundary];$Failed,
 True,ArrayReshape[Fold[Dot,cores],dims[[All,2]]]]];
+
 TensorTrainContract[___]:=(Message[TensorTrainContract::notcores];$Failed);
 
 
